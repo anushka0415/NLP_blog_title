@@ -46,6 +46,7 @@ This project sets up a speaker diarization API using **Django** and **llama 3.2 
 ## Running the Django Application
 ### Start the Django Development Server:
 
+  - Provide the huggingface token shared over mail in `llama_app/config.py`.
   - Once the environment is set up, start the server with:
 ```bash
 python manage.py runserver
